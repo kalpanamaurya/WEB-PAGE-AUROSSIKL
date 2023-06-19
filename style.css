@@ -33,6 +33,9 @@ nav ul li a{
    position: relative;
 }
 .sub-menu{
+   display: none;
+}
+.sub-menu{
    display: block;
    position: absolute;
    left: 0;
@@ -97,10 +100,6 @@ header{
    margin-left: 5px 0x 20px;
    
 }
-
-
-
-
 
 
 /*our servise*/
