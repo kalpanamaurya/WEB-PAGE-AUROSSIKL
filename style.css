@@ -32,6 +32,17 @@ nav ul li a{
    font-size: 15px;
    position: relative;
 }
+.sub-menu{
+   display: block;
+   position: absolute;
+   left: 0;
+   top: 100%;
+   background-color: brown;
+}
+.sub-menu ul{
+   display: block;
+   margin: 10px;
+}
 
 header{
    width: 100%;
@@ -190,10 +201,11 @@ ul{
    color: white;
 }
 .down .social-link i{
-   display: inline block;
+   display:inline-block;
    color: azure;
    font-size: 20px;
    margin: 0 15px;
+  
    
 }
 
