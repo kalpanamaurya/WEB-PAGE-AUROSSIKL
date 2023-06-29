@@ -112,7 +112,7 @@ section{
 .title{
    text-align: center;
    font-size: 20px;
-   color: black;
+   color: rgba(0, 0, 0, 0.822);
 }
 h1{
    font-size: 35px;
@@ -135,7 +135,7 @@ h1{
 }
 h3{
    font-size: 25px;
-   color: black;
+   color: rgba(0, 0, 0, 0.788);
    margin: 25px auto;
 }
 p{
@@ -185,6 +185,11 @@ ul{
    text-decoration: none;
    font-weight: 300;
    display: block;
+}
+.active, .nav ul li:hover{
+   background-color: rgba(109, 105, 105, 0.904);
+   border-radius: 4px;
+   cursor: pointer;
 }
 .social-link{
    display: inline-block;
