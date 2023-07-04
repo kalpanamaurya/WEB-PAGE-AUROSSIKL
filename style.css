@@ -1,184 +1,214 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
+* {
+   margin: 0;
+   padding: 0;
+  
+
 }
+
 /*  NAVBAR*/
-.logo{
+.logo {
    padding: 0;
    margin-top: 25px;
    margin-left: 100px;
 }
-ul{
+
+ul {
    list-style: none;
 }
-.nav-link{
+nav{
+   display: flex;
+   padding: 2% 6%;
+   justify-content: space-between;
+   align-items: center;
+   
+}
+
+.nav-link {
    display: flex;
    align-self: center;
-   padding: 30px 200px;
+   padding: 30px 100px;
    margin-left: 450px;
 }
 
-.nav-link li{
+.nav-link li {
    margin: 2px 15px;
    font-weight: bold;
    display: inline-block;
 }
-nav ul li a{
-   color:black;
+
+nav ul li a {
+   color: black;
    text-decoration: none;
    font-size: 15px;
    position: relative;
 }
-.sub-menu{
+
+.sub-menu {
    display: none;
 }
-.sub-menu{
+
+.sub-menu {
    display: block;
    position: absolute;
    left: 0;
    top: 100%;
    background-color: brown;
 }
-.sub-menu ul{
+
+.sub-menu ul {
    display: block;
    margin: 10px;
 }
 
-header{
+header {
    width: 100%;
    height: 90vh;
    background-image: url(images/slider-one.jpg);
    background-position: bottom;
    background-size: cover;
-   display:block;
-   align-items:center;
+   display: block;
+   align-items: center;
    justify-content: center;
    position: relative;
 }
 
-.header-content{
-   color:black;
-   position:absolute;
+.header-content {
+   color: black;
+   position: absolute;
    top: 350px;
    left: 15%;
 }
-.header-content h2{
+
+.header-content h2 {
    font-size: 25px;
 }
-.header-content h1{
+
+.header-content h1 {
    font-size: 10px;
-   margin: 5px,0px,40px;
-  
+   margin: 5px, 0px, 40px;
+
 }
-.line{
+
+.line {
    width: 150x;
    height: 4px;
    margin: 10px auto;
 }
-.active{
+
+.active {
    color: rgba(0, 174, 255, 0.774);
    font-weight: bold;
 
 }
 
 
-   /*partner bussness*/
+/*partner bussness*/
 
 
-.partner{
+.partner {
    background-color: rgb(94, 203, 247);
    width: 100%;
    height: 150px;
-   margin-top: 0;  
+   margin-top: 0;
 }
 
-.bussines{
+.bussines {
    padding: 20px 80px;
    align-items: center;
    margin-left: 5px 0x 20px;
-   
+
 }
 
 
 /*our servise*/
 
-section{
+section {
    width: 80%;
    margin: 80px auto;
 
 }
-.title{
+
+.title {
    text-align: center;
    font-size: 20px;
    color: rgba(0, 0, 0, 0.822);
 }
-h1{
+
+h1 {
    font-size: 35px;
 }
 
-.row{
+.row {
    display: flex;
    align-items: center;
    width: 100%;
    justify-content: space-between;
 }
-.row .col{
+
+.row .col {
    display: flex;
    flex-direction: column;
    align-items: center;
 
 }
-.ourservices .row{
+
+.ourservices .row {
    margin-top: 30px;
 }
-h3{
+
+h3 {
    font-size: 25px;
    color: rgba(0, 0, 0, 0.788);
    margin: 25px auto;
 }
+
 p{
-   color: rgba(0, 0, 0, 0.582);
+  color: black;
    font-size: 15px;
    padding: 0px 35px;
 }
-.ourteam .image-col{
+
+.ourteam .image-col {
    display: flex;
    flex-wrap: wrap;
 }
-.image-col .img{
+
+.image-col .img {
    width: 200px;
 }
-.footer{
+
+.footer {
    width: 100%;
    margin: auto;
-   background:rgb(87, 86, 86) ;
+   background: rgb(87, 86, 86);
 }
-.footer-team{
-    max-width: 11170px;
-    
+
+.footer-team {
+   max-width: 11170px;
+
 }
-.rowend{
+
+.rowend {
    display: flex;
    flex-wrap: wrap;
 }
-ul{
-   list-style: none;
-}
-.footer-col{
+
+
+
+.footer-col {
    width: 25%;
    padding: 20px 20px;
 }
-.footer-col h2{
+
+.footer-col h2 {
    font-size: 15px;
-   color:rgb(94, 203, 247);
+   color: rgb(94, 203, 247);
    text-transform: capitalize;
    margin-bottom: 10px;
    position: relative;
 }
 
-.footer-col ul li a{
+.footer-col ul li a {
    font-size: 16px;
    text-transform: none;
    color: white;
@@ -186,30 +216,37 @@ ul{
    font-weight: 300;
    display: block;
 }
+
 .active, .nav ul li:hover{
    background-color: rgba(109, 105, 105, 0.904);
    border-radius: 4px;
    cursor: pointer;
-}
-.social-link{
+
+}s
+
+.social-link {
    display: inline-block;
    height: 40px;
    width: 40px;
    background-color: rgb(110, 189, 241);
    margin-right: 10px;
 }
-.down{
-   background:rgb(129, 129, 129) ;
+
+.down {
+   background: rgb(129, 129, 129);
 }
-.col p{
+
+.col p {
    color: white;
 }
-.down .social-link i{
-   display:inline-block;
+
+.down .social-link i {
+   display: inline-block;
    color: azure;
    font-size: 20px;
    margin: 0 15px;
 }
+
 
 
 
@@ -311,7 +348,3 @@ nav ul li a{
 }
    
 }*/
-
-
-
-
